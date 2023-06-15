@@ -2,21 +2,21 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'ea508796465e4776a9ade5c6d3714e53',
+  rootNotionPageId: 'c96eb91aad2f410abf53f9bf0a207e7c',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: "youlin's blog",
+  name: "写字的地方",
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'youlin',
+  author: '豆花儿',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
-  instagram: 'youlin_music',
+  // instagram: 'youlin_music',
   // social usernames (optional)
   //twitter: 'transitive_bs',
   //github: 'transitive-bullshit',
@@ -45,7 +45,7 @@ export default siteConfig({
   //
   pageUrlOverrides: {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-     '/about': '216b0229b5e342d99d44ddf3b192dcd9'
+     '/about': 'b027ba89454d40538b1cc5681bf5191a'
   },
 //  pageUrlOverrides: null,
 
@@ -55,8 +55,8 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
-      pageId: '216b0229b5e342d99d44ddf3b192dcd9'
+      title: '有关于我',
+      pageId: 'b027ba89454d40538b1cc5681bf5191a'
     }
   ]
 })
